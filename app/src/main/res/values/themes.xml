@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GreenBean" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/teal_hijau</item>
+        <!-- Secondary brand color. -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/teal_hijau</item>
+    </style>
+
+
+
+    <style name="Theme.GreenBean" parent="Base.Theme.GreenBean" />
+
+</resources>

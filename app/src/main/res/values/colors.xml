@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#D9D9D9</color>
+    <color name="red">#FF3232</color>
+    <color name="cokelat_tua"> #403814</color>
+    <color name="hijau_tua">#27533B</color>
+    <color name="hijau_muda">#669BFFC8</color>
+    <color name="teal_hijau"> #4C956C </color>
+</resources>

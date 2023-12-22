@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GreenBean</string>
+    <string name="detail">The GreenBean App is an application that allows users to scan GreenBean coffee beans, aiding in the selection and sorting of high-quality coffee beans</string>
+    <string name="what_is_coffeegit_app">What is CoffeeGit App?</string>
+    <string name="this_is_a_good_type_of_coffee_beans">This is a good type of coffee beans</string>
+    <string name="this_is_a_defective_type_of_coffee">This is a defective type of coffee</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register_here">Register here</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="job">Job</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="titik_dua">:</string>
+    <string name="username">Username\n</string>
+    <string name="petani">Petani Kopi\n</string>
+    <string name="Padang">Padang\n</string>
+    <string name="number">08xxx</string>
+    <string name="description_community">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
+    <string name="description">Description</string>
+    <string name="text_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
+    <string name="upload">Upload</string>
+    <string name="result">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="community">Community</string>
+    <string name="scan">Scan</string>
+    <string name="add_description_here">Add description here...</string>
+    <string name="post_now">Post Now</string>
+    <string name="success_upload">Upload Success!</string>
+    <string name="ok">OK</string>
+    <string name="continue_login">Continue Login</string>
+    <string name="have_an_account">"Don't have an account? "</string>
+</resources>

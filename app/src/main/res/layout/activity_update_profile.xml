@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.profile.Update_Profile">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <TextView
+        android:id="@+id/tv_title_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Profile"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/cokelat_tua"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_profile"
+        android:layout_width="187dp"
+        android:layout_height="173dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/gray">
+
+        <ImageView
+            android:id="@+id/profile_update"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/profile" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+    <TextView
+        android:id="@+id/emailuser_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/card_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="emailuser@gmail.com" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tl_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:boxStrokeColor="@color/hijau_tua"
+        app:startIconDrawable="@drawable/person"
+        android:outlineAmbientShadowColor="@color/hijau_tua"
+        app:layout_constraintTop_toBottomOf="@id/emailuser_update">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ed_update_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:hint="Name"
+            android:inputType="text"
+            android:paddingHorizontal="8dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tl_job"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:boxStrokeColor="@color/hijau_tua"
+        app:startIconDrawable="@drawable/work"
+        android:outlineAmbientShadowColor="@color/hijau_tua"
+        app:layout_constraintTop_toBottomOf="@id/tl_name">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ed_update_job"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:hint="Job"
+            android:inputType="text"
+            android:paddingHorizontal="8dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tl_address"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:boxStrokeColor="@color/hijau_tua"
+        app:startIconDrawable="@drawable/ic_location"
+        android:outlineAmbientShadowColor="@color/hijau_tua"
+        app:layout_constraintTop_toBottomOf="@id/tl_job">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ed_update_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:hint="Address"
+            android:inputType="text"
+            android:paddingHorizontal="8dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tl_phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:boxStrokeColor="@color/hijau_tua"
+        app:startIconDrawable="@drawable/ic_phone"
+        android:outlineAmbientShadowColor="@color/hijau_tua"
+        app:layout_constraintTop_toBottomOf="@id/tl_address">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ed_update_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:hint="Phone"
+            android:inputType="text"
+            android:paddingHorizontal="8dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/hijau_tua"
+        android:layout_marginBottom="42dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
